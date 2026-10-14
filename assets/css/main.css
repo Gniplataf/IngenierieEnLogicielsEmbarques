@@ -1,0 +1,57 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ffffff;
+    /* place pour le bandeau fixe en bas de page */
+    padding-bottom: 6rem;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: .25rem;
+    margin-top: 1rem;
+    transition: color .3s, border-color .3s;
+}
+
+dt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+dd { margin-bottom: .5rem; }
+
+.note { font-style: italic; }
+
+a:link    { color: green; }
+a:visited { color: red; }
+a:hover   { color: orange; }
+a:active  { color: rgb(255, 0, 255); }
+
+#carouselJuniorSenior {
+    max-width: 600px;
+}
+.carousel-item img { border-radius: .5rem; }
+
+.legende {
+    background: rgba(0, 0, 0, .6);
+    border-radius: .5rem;
+    padding: .1rem .5rem;
+}
+
+.details-caches { display: none; }
+.details-caches.visible { display: block; }
+
+@media (max-width: 576px) {
+    h1 { font-size: 1.25rem; }
+}
